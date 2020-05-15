@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Profile 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.9%" y="-17.6%" width="155.7%" height="135.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.156862745   0 0 0 0 0.207843137   0 0 0 0 0.31372549  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="申请中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1777.000000, -199.000000)" fill="#A1A6B1" id="分组-4">
+            <g filter="url(#filter-1)" transform="translate(1760.000000, 53.000000)">
+                <g id="Profile-2" transform="translate(17.000000, 146.000000)">
+                    <path d="M10.3544,7.699125 C10.8826667,6.8945625 11.2,5.8970625 11.2,4.8125 C11.2,2.1546875 9.3198,0 7,0 C4.6802,0 2.8,2.1546875 2.8,4.8125 C2.8,5.8970625 3.11733333,6.8945625 3.64513333,7.699125 C1.47466667,8.665125 0,10.5345625 0,12.6875 L0,13.125 C0,13.608 0.417666667,14 0.933333333,14 L13.0666667,14 C13.5818667,14 14,13.608 14,13.125 L14,12.6875 C14,10.5345625 12.5253333,8.665125 10.3544,7.699125 L10.3544,7.699125 Z M7,1.3125 C8.5176,1.3125 9.8,2.9150625 9.8,4.8125 C9.8,6.7095 8.5176,8.3125 7,8.3125 C5.4824,8.3125 4.2,6.7095 4.2,4.8125 C4.2,2.9150625 5.4824,1.3125 7,1.3125 L7,1.3125 Z M1.4,12.6875 C1.4,10.9510625 2.702,9.4504375 4.58266667,8.7443125 C5.2668,9.2973125 6.09933333,9.625 7,9.625 C7.90066667,9.625 8.7332,9.2973125 9.41733333,8.7443125 C11.298,9.4504375 12.6,10.9510625 12.6,12.6875 L1.4,12.6875 L1.4,12.6875 Z" id="Profile"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

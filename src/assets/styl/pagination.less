@@ -1,0 +1,48 @@
+.pagination-wrapper {
+  height: 25px;
+  line-height: 25px;
+  padding-bottom: 30px;
+  .info {
+    color: #A1A6B1;
+    font-size: 14px;
+  }
+  .pagi-left {
+    display: flex;
+    font-size: 14px;
+    span:nth-child(1) {
+      color: #283550
+    }
+    span:nth-child(3) {
+      color: #A1A6B1
+    }
+  }
+  .pagi-left /deep/ .el-select.el-select--medium {
+    width: 90px;
+    margin-right: 10px;
+    .el-input.el-input--medium.el-input--suffix {
+      .el-input__inner {
+        height: 25px;
+      }
+    }
+  }
+  .pagi-right {
+    float: right;
+  }
+  .pagi-right /deep/ .el-pagination.is-background {
+    .el-pager {
+      .number {
+        color: #283550;
+        background: #fff;
+      }
+      .number.active {
+        background: #17caaa;
+        color: #fff;
+      }
+    }
+    .btn-prev, .btn-next {
+      background: #fff;
+      border: 1px solid rgb(225, 227, 228);
+      border-radius: 2px;
+    }
+  }
+}

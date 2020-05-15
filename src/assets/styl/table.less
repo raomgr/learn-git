@@ -1,0 +1,53 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  font-size: 14px;
+  table-layout: fixed;
+  margin-bottom: 30px;
+  td,th{
+    border: none;
+    text-align: right;
+  }
+  thead{
+    tr{
+      height: 46px;
+      background:rgba(40,53,80,0.03);
+      color: #798192;
+    };
+    th{
+      font-weight: normal;
+    }
+  }
+  tbody{
+    tr{
+      height: 52px;
+      &:hover{
+        background:rgba(23,202,170,0.08);;
+        td:first-child{
+          position: relative;
+          &:after{
+            display: block;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #17caaa;
+          }
+        }
+      }
+    }
+    td{
+      color: #283550;
+      border-bottom: 1px solid #f7f7f8;
+    }
+    tr:last-child{
+      td{
+        border: none;
+      }
+    }
+  }
+}
+
